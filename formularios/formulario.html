@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="index.php" method="POST">
+
+        <div class="Formulario">
+            <h3>Titulo:</h3>
+            <input type="text" name="titulo" placeholder="Ingrese el titulo" required="required" >
+            <h3>descripcion :</h3>
+            <textarea name="descripcion"cols="20" rows="10" >
+
+            </textarea>
+            <input type="submit" value="enviar">
+        </div>
+
+    </form>
+    
+</body>
+</html>
+
+<style>
+    .Formulario {
+        background-color: rgb(201, 201, 201);
+        border: solid 1px rgb(135, 135, 207);
+        margin: auto;
+        width: 50%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+
+    }
+    .Formulario input{
+        display: block;
+        margin: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+</style>
